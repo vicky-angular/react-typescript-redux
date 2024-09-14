@@ -1,0 +1,11 @@
+.container-tiles{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tile-post{
+    background-color: lightgray;
+    width: 250px;
+    height: 300px;
+    margin:1%;
+}

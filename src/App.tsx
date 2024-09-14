@@ -1,10 +1,10 @@
-
+/* eslint-disable react/react-in-jsx-scope */
+import { RouterProvider } from 'react-router-dom';
+import { router } from './utils/routes';
+import './App.css'
 function App() {
-
   return (
-    <>
-     START TYPESCRIPT
-    </>
+    <RouterProvider router={router} />
   )
 }
 
